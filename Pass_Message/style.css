@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(#b8dafc, white);
+
+}
+
+#contaner{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#messageBox{
+    width: 550px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    padding: 20px;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    box-shadow:0px 5px 5px 0px rgba(0, 0, 0, 0.267);
+}
+
+#title{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.icon{
+    padding: 10px;
+}
+
+#message{
+    width: 90%;
+    margin-bottom: 10px;
+    padding: 9px;
+    outline: none;
+    border-radius: 0px 5px 5px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+}
+
+#btn{
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#output{
+    text-align: center;
+    margin: 5px;
+    text-transform: uppercase;
+}
